@@ -35,6 +35,20 @@ func main() {
 		result[taxRate] = taxIncludedPrices
 	}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 	// Print header (green)
 fmt.Println("\033[1;32m")
 fmt.Println("==============================")
