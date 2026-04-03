@@ -3,7 +3,6 @@ package cmdmanager
 import (
 	"fmt"
 
-	"example.com/price-calculator/prices"
 )
 
 type CMDManager struct {
@@ -32,6 +31,6 @@ func (cmd *CMDManager) WriteResult(data interface{}) error {
 	return nil
 }
 
-func New() CMDManager{
+func New() *CMDManager{
 	return &CMDManager{}
 }
