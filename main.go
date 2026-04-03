@@ -20,6 +20,11 @@ func main() {
 		cmdm := cmdmanager.New()
 		priceJob := prices.NewTaxIncludedPriceJob(cmdm, taxRate)
 		priceJob.Process()
+
+		if err !={
+			fmt.Println("Could Not Process Job.")
+			fmt.Println(err)
+		}
 	}
 
 }
